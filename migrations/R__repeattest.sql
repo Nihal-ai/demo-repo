@@ -6,4 +6,4 @@ CREATE or replace TABLE HELLO_WORLD_R3
   ,test_field VARCHAR
 );
 
-insert into demo_db.demo.HELLO_WORLD_R3 values('t1','t2');
+insert into demo_db.demo.HELLO_WORLD_R3 values('t1','t2','t3');
