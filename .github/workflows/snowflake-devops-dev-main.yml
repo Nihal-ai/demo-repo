@@ -4,8 +4,8 @@ name: snowflake-devops-demo
 on:
   push:
     branches:
-      - dev
-      - main
+      - dev1
+      - main1
     paths:
       - 'migrations/**'
 
