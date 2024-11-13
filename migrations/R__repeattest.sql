@@ -1,4 +1,4 @@
-use SCHEMA DEMO;
+use SCHEMA prod_schema.;
 
 CREATE or replace TABLE HELLO_WORLD_R1
 (
@@ -7,4 +7,4 @@ CREATE or replace TABLE HELLO_WORLD_R1
   ,test_field VARCHAR
 );
 
-insert into demo_db.demo.HELLO_WORLD_R1 values('t1','t2','t3');
+insert into prod.prod_schema.HELLO_WORLD_R1 values('t1','t2','t3');
