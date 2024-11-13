@@ -1,3 +1,3 @@
-select * from demo_db.demo.hello_world;
+select * from hello_world;
 
-insert into demo_db.demo.hello_world values('t1','t2');
+insert into hello_world values('t1','t2');
