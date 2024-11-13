@@ -1,3 +1,3 @@
-select * from demo_db.demo.hello_world;
+select * from prod.prod_schema.hello_world;
 
-insert into demo_db.demo.hello_world values('t1','t2');
+insert into prod.prod_schema.hello_world values('t1','t2');
