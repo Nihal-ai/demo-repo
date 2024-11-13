@@ -51,6 +51,21 @@ jobs:
           SNOWFLAKE_PASSWORD: ${{ secrets.SF_PASSWORD_DB1 }}
         run: echo "PROD environment variables set"
 
+      # Debug step to print environment variables
+      - name: Debug Environment Variables
+        run: |
+          echo "Account: $SF_ACCOUNT"
+          echo "Role: $SF_ROLE"
+          echo "Warehouse: $SF_WAREHOUSE"
+          echo "Database: $SF_DATABASE"
+          echo "Schema: $SF_SCHEMA"
+        env:
+          SF_ACCOUNT: $SF_ACCOUNT
+          SF_ROLE: $SF_ROLE
+          SF_WAREHOUSE: $SF_WAREHOUSE
+          SF_DATABASE: $SF_DATABASE
+          SF_SCHEMA: $SF_SCHEMA
+
       - name: Run schemachange
         env:
           SF_ACCOUNT: $SF_ACCOUNT
