@@ -1,10 +1,10 @@
 name: snowflake-devops-prod
 
-# Controls when the action will run. 
+# main Controls when the action will run. 
 on:
   push:
     branches:
-      - main
+      - 
     paths:
       - 'migrations/**'
 
