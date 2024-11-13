@@ -1,4 +1,4 @@
 
-Select count(*) from demo_db.demo.HELLO_WORLD_R2;
+Select count(*) from prod.prod_schema.HELLO_WORLD_R2;
 
-Select count(*) from demo_db.demo.HELLO_WORLD_R;
+Select count(*) from prod.prod_schema.HELLO_WORLD_R;
