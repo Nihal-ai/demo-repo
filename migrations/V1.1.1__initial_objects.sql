@@ -1,4 +1,4 @@
-use SCHEMA prod.prod_schema.;
+use SCHEMA prod.prod_schema;
 CREATE or replace TABLE prod.prod_schema.HELLO_WORLD
 (
    FIRST_NAME VARCHAR
