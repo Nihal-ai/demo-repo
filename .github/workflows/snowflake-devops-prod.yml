@@ -4,7 +4,7 @@ name: snowflake-devops-prod
 on:
   push:
     branches:
-      - main
+      - main1
     paths:
       - 'migrations/**'
 
